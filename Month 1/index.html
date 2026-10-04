@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me; ALTSCHOOL</title>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="main">
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#biography">Biography</a></li>
+          <li><a href="form.html">Sign In to AltSchool</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section aria-label="about-me">
+        <div>
+          <h1 id="about-me">About Me</h1>
+          <p>Click the button below to see more information about me.</p>
+          <button commandfor="about-me-altschool" command="show-modal">
+            More about me
+          </button>
+          <dialog
+            id="about-me-altschool"
+            aria-labelledby="about-me-altschool-title"
+            aria-describedby="about-me-altschool-description"
+          >
+            <h2 id="about-me-altschool-title">ALTSCHOOL Details</h2>
+            <p id="about-me-altschool-description">
+              Here are the details about my ALTSCHOOL profile:
+            </p>
+            <nav aria-label="ALTSCHOOL Information">
+              <ul>
+                <li>Name: Boluwatife Eseofe Moyaki</li>
+                <li>ALTSCHOOL ID: ALT/SOE/KAR/026/1150</li>
+                <li>Track: AI Fullstack Engineering</li>
+              </ul>
+            </nav>
+            <button commandfor="about-me-altschool" command="close">
+              Close
+            </button>
+          </dialog>
+        </div>
+      </section>
+      <section aria-label="biography">
+        <div>
+          <h2 id="biography">Biography</h2>
+          <p>
+            I am a persistent but somewhat inconsistent learner especially when
+            it comes to software engineering. On the other hand, I am a very
+            dedicated and committed Software Tester looking to branch fully into
+            Quality Assurance Automation. I enjoy looking at beautiful things,
+            studgying God's word, watching spiritual and educational content and
+            engaging with new people. I currently reside in Jos, Plateau State
+            an I love it here because of the affordable cost of living and the
+            non-stop cold.
+          </p>
+        </div>
+        <div>
+          <h2>Why I joined AltSchool</h2>
+          <p>
+            I joined AltSchool to give myself another chance to make a
+            difference. I had gone through this journey before but I was not
+            focused enough to do the needful. I'm here to learn what I can to be
+            a better Quality Assurance Automation Engineer
+          </p>
+        </div>
+        <div>
+          <h2>Goals I hope to achieve</h2>
+          <ol>
+            <li>To master the fundamentals of JavaScript</li>
+            <li>To create my own portfolio using the tools I learn</li>
+            <li>To contribute to projects surrounding Geomatics</li>
+          </ol>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a href="mailto:eseofemoyaki@gmail.com">Contact Me</a>
+      &copy; Boluwatife Eseofe Moyaki 2026. All rights reserved
+    </footer>
+  </body>
+</html>
